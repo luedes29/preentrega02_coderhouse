@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <title>Contacto - El Señor De Los Platillos</title>
+</head>
+
+<body>
+    <header>
+        <h1> <a href="../index.html">El Señor De Los Platillos</a></h1>
+        <nav class="navegacion">
+            <ul class="main">
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./comidas.html">Comidas</a>
+                    <ul class="submain">
+                        <li>Menú General</li>
+                        <li>Menú Vegetariano</li>
+                        <li>Menú Vegano</li>
+                        <li>Menú Celíaco</li>
+                    </ul>
+                </li>
+                <li><a href="./productos.html">Productos</a>
+                    <ul class="submain-dos">
+                        <li>Vasos</li>
+                        <li>Platos</li>
+                    </ul>
+                </li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Formulario -->
+    <section class="portada_contacto">
+        <h1>Contactate con nosotros...</h1>
+        <br>
+        <br>
+        <div class="contacto_texto">
+            <form action="">
+                <div>
+                    <label for="nombre-usuario">Nombre y Apellido:</label>
+                    <input type="text" id="nombre-usuario" name="nombre-usuario">
+                </div>
+                <div>
+                    <label for="email-usuario">Ingrese su Mail:</label>
+                    <input type="email" id="email-usuario" name="email-usuario">
+                </div>
+                <div>
+                    <label for="asuntos-mail">Asunto:</label>
+                    <!-- SELECT (Menú desplegable de Selección de Valores) -->
+                    <select id="asuntos-mail" name="asuntos-mail">
+                        <option value="reclamo">Reclamo</option>
+                        <option value="finanzas">Finanzas</option>
+                        <option value="devoluciones">Devoluciones</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="mensaje-usuario">Ingrese su mensaje:</label>
+                    <!-- textarea usado para que el usuario pueda desarrollar y leer su mensaje dentro de un campo de texto-->
+                    <textarea id="mensaje-usuario" name="mensaje-usuario" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="">¿Desea recibir noticias?</label>
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <label for="">Mujer</label>
+                    <input type="radio" name="seleccion-genero" value="femenino">
+                    <label for="">Hombre</label>
+                    <input type="radio" name="seleccion-genero" value="masculino">
+                    <label for="">Prefiero no responder</label>
+                    <input type="radio" name="seleccion-genero" value="no-responde">
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Reset Formulario">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,286 @@
+/* Página "Index" */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'MedievalSharp', cursive;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header{
+    background-image: url(../assets/img/portadas/bannerheader.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    overflow: hidden;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: wheat;   
+}
+.navegacion{
+    width: 25%;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.portada{
+    background-image: url(../assets/img/portadas/portadamain.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+}
+.portada-texto{
+    text-align: left;
+    background-color: rgba(85, 64, 64, 0.527);
+    color: wheat;
+}
+.novedades h2{
+    text-align: center;
+    color: wheat;
+}
+.novedaduno{
+    margin-right: 20px;
+    display: flex;
+}
+.textouno{
+    padding-left: 25px;
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.356);
+    font-size: 1.5rem;
+}
+.novedaddos{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.textodos{
+    padding-left: 25px;
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.356);
+    font-size: 1.5rem;
+}
+.novedadtres{
+    margin-right: 20px;
+    display: flex;
+}
+.textotres{
+    padding-left: 25px;
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.356);
+    font-size: 1.5rem;
+}
+
+/* Página "Nosotros" */
+.portada_nosotros{
+    background-image: url(../assets/img/portadas/portadanosotros.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+}
+.nosotros_texto{
+    text-align: left;
+    background-color: rgba(85, 64, 64, 0.527);
+    color: wheat;
+}
+.nosotros_descripcion{
+    text-align: center;
+    font-weight: 200;
+    color: wheat;
+    text-decoration: none;
+    font-style: oblique;
+    font-stretch: narrower;
+}
+
+/* Página "Contacto" */
+.portada_contacto{
+    background-image: url(../assets/img/portadas/portadacontacto.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+}
+.portada_contacto h1{
+    text-align: left;
+    background-color: rgba(85, 64, 64, 0.527);
+    color: wheat;
+}
+.contacto_texto{
+    text-align: left;
+    background-color: rgba(85, 64, 64, 0.527);
+    color: wheat;
+}
+
+/* Página Comidas */
+.portada_comidas{
+    background-image: url(../assets/img/portadas/portadacomidas.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 220vh;
+}
+.comidas_texto{
+    text-align: left;
+    background-color: rgba(85, 64, 64, 0.527);
+    color: wheat;
+}
+.menu-general{
+    text-align: center;
+    color: wheat;
+    text-decoration: underline;
+}
+.comida_uno{
+    margin-right: 20px;
+    display: flex;
+}
+.comida_uno_texto{
+    padding-left: 25px;
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.356);
+    font-size: 1.5rem;
+}
+.comida_dos{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.comida_dos_texto{
+    padding-left: 25px;
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.356);
+    font-size: 1.5rem;
+}
+.comida_tres{
+    margin-right: 20px;
+    display: flex;
+}
+.comida_tres_texto{
+    padding-left: 25px;
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.356);
+    font-size: 1.5rem;
+}
+.comida_cuatro{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.comida_cuatro_texto{
+    padding-left: 25px;
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.356);
+    font-size: 1.5rem;
+}
+.menu-vegetariano{
+    text-align: center;
+    color: wheat;
+    text-decoration: underline;
+}
+.items-vegetariano{
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.menu-vegano{
+    text-align: center;
+    color: wheat;
+    text-decoration: underline;
+}
+.items-vegano{
+
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.menu-celiaco{
+    text-align: center;
+    color: wheat;
+    text-decoration: underline;
+}
+.items-celiaco{
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+/* Página Productos */
+.portada_productos{
+    background-image: url(../assets/img/portadas/portadaproductos.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250vh;
+}
+.productos_texto{
+    text-align: left;
+    background-color: rgba(85, 64, 64, 0.527);
+    color: wheat;
+}
+.vasos{
+    text-align: center;
+    color: wheat;
+    text-decoration: underline;
+}
+.vaso_uno{
+    align-items: center;
+    margin-right: 20px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.vaso_uno h3{
+    padding-left: 25px;
+    color: wheat;
+    font-size: 1.5rem;
+}
+.vaso_dos{
+    align-items: center;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.vaso_dos h3{
+    padding-right: 25px;
+    color: wheat;
+    font-size: 1.5rem;
+}
+.platos{
+    text-align: center;
+    color: wheat;
+    text-decoration: underline;
+}
+.plato_uno{
+    align-items: center;
+    margin-right: 20px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.plato_uno h3{
+    padding-left: 25px;
+    color: wheat;
+    font-size: 1.5rem;
+}
+.plato_dos{
+    align-items: center;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.plato_dos h3{
+    padding-right: 25px;
+    color: wheat;
+    font-size: 1.5rem;
+}
+.plato_tres{
+    align-items: center;
+    margin-right: 20px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.plato_tres h3{
+    padding-left: 25px;
+    color: wheat;
+    font-size: 1.5rem;
+}
+
